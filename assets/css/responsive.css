@@ -1,0 +1,165 @@
+@media (max-width: 1299px){
+	.center{
+		width: 100%;
+	}
+}
+@media (max-width: 1191px){
+	.container{
+		margin: 0;
+		justify-content: space-around;
+	}
+	.cont{
+		width: 100%;
+	}
+	.boxes{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.bxs{
+		width: 35%;
+	    margin: 0 15px 30px 15px;
+	}
+	.box{
+		width: 80%;
+	}
+}
+
+@media (max-width: 1032px){
+	.section-two-box{
+		flex-direction: column;
+		margin-top: 60px;
+	}
+	.left-article{
+		width: 100%;
+		background-image: url(../img/img1.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.left-text{
+		width: 80%;
+	}
+	.left-text p{
+		opacity: 2;
+		color: #000000;
+		font-weight: 700;
+		font-size: 22px;
+	}
+	.right-img{
+		display: none;
+	}
+}
+@media (max-width: 900px){
+	.bg-img{
+		height: 700px;
+	}
+	.bg-img .title{
+		margin-top: -11.5%;
+	}
+	.bg-img .title h2{
+		font-size: 70px;
+	}
+	.text-center{
+		width: 100%;
+	}
+	.text-center p{
+		width: 85%;
+
+	}
+	.text-center p:last-child{
+		display: none;
+	}
+	.bxs{
+		width: 45%;
+	}
+}
+
+@media (max-width: 650px){
+	nav{
+		display: none;
+	}
+	.burger{
+	    width: 36px;
+	    height: 30px;
+	    /*background: red;*/
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: space-around;
+	    align-items: flex-end;	
+	    cursor: pointer;
+	}
+	.line{
+	    width: 90%;
+	    height: 5px;
+	    background: lightgray;
+	    border-radius: 10px;
+	}
+	.line:last-child{
+		width: 70%;
+	}
+	.section-two-box{
+		margin-top: 0;
+	}
+	.left-article{
+		width: 100%;
+		background-image: none;
+		height: auto;
+    }
+	.left-text{
+		width: 80%;
+		min-height: 300px;
+		justify-content: center;
+	}
+	.left-text h3{
+		font-size: 30px;
+	}
+	.left-text p{
+		opacity: 2;
+		color: #000000;
+		font-weight: 500;
+		font-size: 14px;
+		margin: 18px 0;
+	}
+	.right-img{
+		display: block;
+		width: 100%;
+		height: 350px;
+	}
+	.bxs{
+		width: 85%;
+	}
+}
+
+@media (max-width: 450px){
+	.container .logo a{
+		font-size: 20px;
+	}
+	.bg-img{
+		height: 500px;
+	}
+	.bg-img .title{
+		margin-top: -25.5%;
+	}
+	.bg-img .title h2{
+		font-size: 40px;
+	}
+	.left-text{
+		width: 90%;
+	}
+	.left-text .btn{
+		width: 100%;
+		height: 50px;
+	}
+	.cont{
+		margin-top: 35px;
+	}
+	.text-center h4{
+		font-size: 28px;
+	}
+	.bxs{
+		height: 350px;
+	}
+	.box{
+		width: 90%;
+	}
+}

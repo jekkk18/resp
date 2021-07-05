@@ -16,6 +16,9 @@ body{
     width: 1280px;
     margin: 0 auto;
 }
+.burger{
+    display: none;
+}
 .bg-img{
     background-image: url(../img/header-bg-img.jpg);
     background-size: cover;
